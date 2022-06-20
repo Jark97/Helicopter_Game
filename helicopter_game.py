@@ -27,7 +27,7 @@ surface = pygame.display.set_mode((surfaceWidth,surfaceHeight))
 pygame.display.set_caption('Helicopter')
 clock = pygame.time.Clock()
 
-img = pygame.image.load('Helicopter.png')
+img = pygame.image.load('helicopter.png')
 
 def score(count):
     font = pygame.font.Font('freesansbold.ttf', 20)
